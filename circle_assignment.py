@@ -2,8 +2,11 @@ import decimal, math
 from decimal import *
 from sys import argv
 
-script, user_name = argv
-prompt = '> '
+#script, user_name = argv
+#prompt = '> '
+
+print "What is your name?"
+user_name = prompt = '> '
 
 print "Hello %s, I am the math machine." % user_name
 print "You will give me a radius, and I will spit out the diameter, circumference, and area."
