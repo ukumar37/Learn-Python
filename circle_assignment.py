@@ -8,7 +8,7 @@ from sys import argv
 print "Please enter your first name now."
 user_name = prompt = '> '
 
-print "Hello %s, I am the math machine." % user_name
+print "Hello %s, I am Ari - The math machine." % user_name
 print "You will give me a radius, and I will spit out the diameter, circumference, and area."
 
 print "So here goes!"
