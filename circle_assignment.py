@@ -5,7 +5,7 @@ from sys import argv
 #script, user_name = argv
 #prompt = '> '
 
-print "Please enter your name?"
+print "Please enter your first name now."
 user_name = prompt = '> '
 
 print "Hello %s, I am the math machine." % user_name
