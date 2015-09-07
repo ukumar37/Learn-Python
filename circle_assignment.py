@@ -3,10 +3,10 @@ from decimal import *
 from sys import argv
 
 #script, user_name = argv
-#prompt = '> '
+prompt = '> '
 
 print "Please enter your first name now."
-user_name = prompt = '> '
+user_name = raw_input(prompt)
 
 print "Hello %s, I am Ari - The math machine." % user_name
 print "You will give me a radius, and I will spit out the diameter, circumference, and area."
