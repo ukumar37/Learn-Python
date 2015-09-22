@@ -1,5 +1,6 @@
 import decimal, math
 from decimal import *
+from turtle import *
 from sys import argv
 
 #script, user_name = argv
@@ -39,3 +40,17 @@ def area(radius_value):
     return Decimal (pi * math.pow(float(radius_value),2))
  
 print "The area of the circle is %s" % float(area(radius))
+
+#draw the circle with the given radius
+def draw(radius_value):
+    pen1 = Pen() 					#create a pen object
+    pen1.screen.bgcolor("#94B3C6")	#set the screen's background color
+    pen1.color("#5D5732")			#set pen color
+    pen1.circle(radius_value)		#draw the circle with the calculated radius
+    return None 
+    
+print "We will now draw a circle with your given radius"
+draw(radius)
+
+#pause before ending the program
+raw_input("Please hit enter to end the program demo.")
